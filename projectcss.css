@@ -1,0 +1,52 @@
+*{
+  margin:0;
+}
+
+
+object{
+  width:1540px;
+  height:400px;
+  display:block;
+}
+
+/* div.head1{
+  background-color: black;
+  height:70px;
+  word-spacing: 700px;
+  color:white;
+
+
+} */
+.topnav {
+  background: darkblue ;
+  overflow:hidden;
+}
+
+.topnav a{
+  float: left;
+  color: white;
+  text-align:center;
+  padding: 20px 100px;
+  font-size:30px;
+}
+
+.topnav img{
+  display:block;
+
+
+}
+
+li{
+  padding:10px 50px;
+  float:left;
+
+
+}
+
+
+li a
+{
+  display:block;
+  text-align: center;
+
+}
