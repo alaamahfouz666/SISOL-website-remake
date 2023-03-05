@@ -1,37 +1,86 @@
-.uniim{
+.uniim{  /* top image cusotmization */
   height:300px;
-  width:1536px;
-  border-bottom: 5px solid #b59695;
+  width:1517px;
 }
 
-*{
+*{ /* eliminating margin from around images to fit the screen perfectly */
   margin:0;
-  background:#b59695 ;
-
+  font-family: comic sans ms,cursive;
 }
 
-.h1{
+body{ /* temperory to look downside */
+  height: 3000px;
+}
+
+.h1{ /* customizing the lebanese university sentence at the top */
   text-align: center;
-  font-size: 80px;
+  font-size: 30px;
   font-style:italic;
   text-decoration: underline;
+  color: #c3c9cc;
 }
 
-.h2{
-  padding-top: 100px;
+table{ /* cusotmizing table size , look and style */
+  font-size: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+  border: solid white;
+  background-color: white;
+  border-radius: 15px;
+}
+
+input{ /* customizing the input boxes all along the page */
+  height:20px;
+  width:200px;
+  align:center;
+}
+
+label{ /* customizing the labes by the input boxes side to align correctly as a block style and keep space between em and the boxes */
+  width:200px;
+  display:inline-block;
+  float: left;
+  margin-top:3px;
+}
+
+td{  /* cusotmizing td to align correctly */
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom:30px;
+  text-align: left;
+}
+
+select{ /* cusotmizing select boxes */
+  width:207px;
+  height:26px;
+}
+
+option{ /* centering the default word showing on the select box */
   text-align: center;
-  font-size: 60px;
-
 }
 
-.div1{
-    margin-left:400px;
-    padding-top: 50px;
-    font-size: 25px;
-    box-sizing: 50px;
-
+select.age{ /* customizing the age input box because it had multiple select boxes*/
+  width: 65px;
 }
 
-.div1 label{
-  padding-right: 50px;
+h2{ /* customizing the sign up sentence at the top of the table */
+  text-align: center;
+}
+
+input.code{ /* customizing the input box of the code number box to be smaller */
+  width:40px;
+
+  }
+
+input.number{ /* customizing the input box of the number */
+  width:150px;
+}
+td.new{
+  font-size: 10px;
+  text-align: center;
+  padding: 0;
+}
+
+td.h{ /* using a class to specify the padding bottom of the line sign up because it cant be specified in the h2{} because it doesnt have enough specifity and the table css setting override it */
+  padding-bottom: 0;
 }
