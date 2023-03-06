@@ -1,6 +1,6 @@
 .uniim{  /* top image cusotmization */
   height:300px;
-  width:1517px;
+  width:1536px;
 }
 
 *{ /* eliminating margin from around images to fit the screen perfectly */
@@ -84,3 +84,8 @@ td.new{
 td.h{ /* using a class to specify the padding bottom of the line sign up because it cant be specified in the h2{} because it doesnt have enough specifity and the table css setting override it */
   padding-bottom: 0;
 }
+
+/* frame.headerframe{
+  margin:0;
+  padding:0;
+} */
