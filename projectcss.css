@@ -1,6 +1,6 @@
 .uniim{  /* top image cusotmization */
   height:300px;
-  width:1536px;
+  width:1518px;
 }
 
 *{ /* eliminating margin from around images to fit the screen perfectly */
@@ -12,7 +12,7 @@ body{ /* temperory to look downside */
   height: 3000px;
 }
 
-.h1{ /* customizing the lebanese university sentence at the top */
+.hh{ /* customizing the lebanese university sentence at the top it didnt work when hitting h1 tag */
   text-align: center;
   font-size: 30px;
   font-style:italic;
@@ -21,19 +21,18 @@ body{ /* temperory to look downside */
 }
 
 table{ /* cusotmizing table size , look and style */
-  font-size: 25px;
+  font-size: 25px; /* for style */
   margin-left:auto;
   margin-right:auto;
   margin-top: 100px;
   border: solid white;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 15px; /* for rounding */
 }
 
 input{ /* customizing the input boxes all along the page */
   height:20px;
   width:200px;
-  align:center;
 }
 
 label{ /* customizing the labes by the input boxes side to align correctly as a block style and keep space between em and the boxes */
@@ -63,9 +62,8 @@ select.age{ /* customizing the age input box because it had multiple select boxe
   width: 65px;
 }
 
-h2{ /* customizing the sign up sentence at the top of the table */
-  text-align: center;
-}
+
+
 
 input.code{ /* customizing the input box of the code number box to be smaller */
   width:40px;
@@ -83,6 +81,7 @@ td.new{
 
 td.h{ /* using a class to specify the padding bottom of the line sign up because it cant be specified in the h2{} because it doesnt have enough specifity and the table css setting override it */
   padding-bottom: 0;
+  text-align: center;
 }
 
 /* frame.headerframe{
