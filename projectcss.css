@@ -108,25 +108,29 @@ div.tablee{
   margin:0;
   height:1500px;
 }
-label.end{
-  float:none;
-  text-align: center;
-  margin-left:220px;
-}
 
 button.end{
-  float:none;
-  text-align:center;
   margin-left:300px;
   font-size: 20px;
   width:300px;
 }
 
-i.fa fa-bars fa-4x{
-margin:0;
-padding:0;
-}
 
 div.ii{ /* customizing div of the icon */
   display: inline-block; /* make the div as small as the icon so it doesnt have a big width */
+  /* padding-bottom:40px; */
+  margin:0;
+  float:left;
+}
+
+div.headcu{
+  display: inline-block;
+  width:1513px;
+
+}
+
+div.unii{
+  width:400px;
+  float:left;
+  margin-left:35%;
 }
