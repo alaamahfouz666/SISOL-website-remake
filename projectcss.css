@@ -110,7 +110,7 @@ div.tablee{
 }
 
 button.end{
-  margin-left:300px;
+  margin-left:35%;
   font-size: 20px;
   width:300px;
 }
@@ -133,4 +133,13 @@ div.unii{
   width:400px;
   float:left;
   margin-left:35%;
+}
+
+span.error{
+  font-size: 13px;
+}
+
+td.error{
+  text-align: center;
+  padding:0;
 }

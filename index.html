@@ -62,17 +62,17 @@
            <a href="signin.html"> already a member? sign in now. </a>
          </td>
     </tr>
-  </tr>
+    <form name="formtab" onsubmit="return nameinfun()">
     <tr>
       <td>
          <label> name : </label>
 
-         <input> </input>
+         <input class="namein" required > </input>
 
        </td>
        <td>
          <label> last name : </label>
-         <input></input>
+         <input class="namein" required ></input>
     </tr>
     <tr>
       <td>
@@ -281,12 +281,20 @@
         </tr>
 
         <tr>
-          <td colspan="2">
-             <button class="end" onclick="info.html"> Register </button>
+          <td colspan="2" style="padding:0;">
+             <button class="end"  > Register </button>
             </td>
 
           </tr>
+           <tr style="line-height:10px;"> <!-- to reduce the row's height -->
+            <td colspan="2" class="error">   <span id="spanerror" style="font-size:13px; color:red;"> </span> </td>
+          </tr>
+
+        </form>
+
   </table>
+
+
 </div>
 
 </div>
