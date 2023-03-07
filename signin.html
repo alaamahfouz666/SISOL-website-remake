@@ -1,10 +1,78 @@
-<!DOCTYPE html>
 <html>
 
+<head>
+    <link rel="stylesheet" href="projectcss2.css">
+    <script src="j1.js"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
 
 
+  <img class="uniim" src="uni.jpg"></img>
 
+</header>
 
-
-
+<body background="img1.jpg">
+<div class="mainb">
+    <div>
+      <div>
+        <h2>login </h2>
+      </div>
+      <div>
+        <div class="">
+          <form>
+            <div>
+              <div>
+                <div> <span><i class="fa fa-user"></i></span>
+                  <input type="text" name="name" placeholder="username" required/>
+                </div>
+              </div>
+            </div>
+            <div> <span><i class="fa fa-envelope"></i></span>
+              <input type="email" name="email" placeholder="Email" required/>
+            </div>
+            <div> <span><i class="fa fa-lock"></i></span>
+              <input type="password" name="password" placeholder="Password" required />
+            </div>
+            <!-- <div>
+              <div>
+                <div> <span><i class="fa fa-user"></i></span>
+                  <input type="text" name="name" placeholder="First Name" />
+                </div>
+              </div>
+              <div>
+                <div> <span><i class="fa fa-user"></i></span>
+                  <input type="text" name="name" placeholder="Last Name" required />
+                </div>
+              </div>
+            </div> -->
+                  <!-- <div>
+                <input class="ii2" type="radio" name="radiogroup1" id="rd1">
+                <label for="rd1">Male</label>
+                <input class="ii2" type="radio" name="radiogroup1" id="rd2">
+                <label for="rd2">Female</label>
+                </div> -->
+                <div>
+                  <select id="s1" onchange="myfunc()">
+                    <option>Select a country</option>
+                    <option>Lebanon</option>
+                    <option>Syria</option>
+                    <option>Jordan</option>
+                    <option id="op1">other</option>
+                  </select>
+                  <div id="ot1" style="display:none"><input type="text" name="country" placeholder="other country"></div>
+                </div>
+              <div class="input_field checkbox_option">
+                  <input class="ii2" type="checkbox">
+                  <label>I agree with terms and conditions</label>
+              </div>
+            <input class="button" type="submit" value="Register" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="text-align:center; color:white; font-size:20px; font-family:algerian;">Developed by Firas and Alaa<a target="_blank"></a></p>
+</body>
 </html>

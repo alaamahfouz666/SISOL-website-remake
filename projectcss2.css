@@ -1,0 +1,43 @@
+.mainb
+{
+  color:white;
+  font-size: 25px; /* for style */
+  margin-left:25%;
+  margin-right:25%;
+  text-align:center;
+  margin-top: 20px;
+  border: solid rgb(19, 24, 176);
+  background-color: rgb(42, 0, 87);
+  background-image: linear-gradient(rgb(19, 0, 95), rgb(52, 106, 255));
+  border-radius: 15px;
+}
+
+label{
+  font-size:18px;
+  display:inline-block;
+}
+
+input{
+  width:350px;
+  height:35px;
+  margin:12px;
+}
+
+.ii2
+{
+  width:20px;
+  height:20px;
+}
+
+select{
+  width:300px;
+  height:35px;
+  text-align:center;
+  color:rgb(247, 247, 255);
+  background-color: rgb(8, 44, 107);
+}
+
+.uniim{  /* top image cusotmization */
+  height:150px;
+  width:100%;
+}
