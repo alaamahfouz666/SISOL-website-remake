@@ -1,5 +1,5 @@
-.uniim{  /* top image cusotmization */
-  height:300px;
+.uniim{  /* header image cusotmization */
+  height:80px;
   width:1518px;
 }
 
@@ -12,7 +12,7 @@ body{ /* temperory to look downside */
   height: 3000px;
 }
 
-.hh{ /* customizing the lebanese university sentence at the top it didnt work when hitting h1 tag */
+.hh{ /* customizing the lebanese university sentence at the top*/
   text-align: center;
   font-size: 30px;
   font-style:italic;
@@ -22,12 +22,12 @@ body{ /* temperory to look downside */
 
 table{ /* cusotmizing table size , look and style */
   font-size: 25px; /* for style */
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 100px;
+
   border: solid white;
   background-color: white;
-  border-radius: 15px; /* for rounding */
+  border-radius: 15px; /* for round corners */
+  margin-top:10px;
+  margin-left:20px;
 }
 
 input{ /* customizing the input boxes all along the page */
@@ -84,7 +84,49 @@ td.h{ /* using a class to specify the padding bottom of the line sign up because
   text-align: center;
 }
 
-/* frame.headerframe{
+div.menu{
+  width:250px;
+  background-color: navy;
+  margin-top:0px;
+  float:left;
+  margin-bottom: 100px;
+  margin-right:65px; /* space between menu and table */
+  display:none;
+}
+
+div.link a {
+  color:white;
+}
+
+div.parent{
+  display: inline-block;
+  width:1500px;
+}
+
+div.tablee{
+  padding-left:300px;
   margin:0;
-  padding:0;
-} */
+  height:1500px;
+}
+label.end{
+  float:none;
+  text-align: center;
+  margin-left:220px;
+}
+
+button.end{
+  float:none;
+  text-align:center;
+  margin-left:300px;
+  font-size: 20px;
+  width:300px;
+}
+
+i.fa fa-bars fa-4x{
+margin:0;
+padding:0;
+}
+
+div.ii{ /* customizing div of the icon */
+  display: inline-block; /* make the div as small as the icon so it doesnt have a big width */
+}

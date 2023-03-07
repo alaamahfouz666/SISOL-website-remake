@@ -2,13 +2,17 @@
 
 <html>
 
-<head>
-  <link rel="stylesheet" href="projectcss.css">
- </head>
 <header>
 
+<head>
+  <link rel="stylesheet" href="projectcss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="projectjs.js"></script>
 
-  <img class="uniim" src="uni.jpg"></img>
+ </head>
+
+
+  <img class="uniim" src="uni1.jpeg"></img>
 
 </header>
 
@@ -16,7 +20,36 @@
 
 
   <h1 class="hh"> Lebanese University 2 </h1>
+  <div onclick="showmenu();" class="ii">
+  <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+</div>
+  <div class="parent">
+  <div class="menu">
 
+
+  <div class="link">  <a href="http://sisol.ul.edu.lb/Login"> Sisol Site </a> </div>
+    <br>
+    <div class="link"> <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=12"> 1st branch </a> </div>
+    <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=37"> 2nd branch </a> </div>
+    <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=14"> 3rd branch </a> </div>
+    <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=39"> 4th branch </a> </div>
+    <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=16"> 5th branch </a> </div>
+    <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/faculte/branch.aspx?branchId=59"> 6th branch </a> </div>
+  <br>
+  <div class="link">  <a class="adiv" href="https://www.ul.edu.lb/media/announcements/entryExams.aspx?showAll=1&currentPage=1"> Entrance Exams </a> </div>
+  <br>
+  <div class="link"> <a class="adiv" href="http://ft.ul.edu.lb/aboutus-saida.php"> About </a> </div>
+
+
+
+  </div>
+
+  <div class="tablee">
   <table>
     <tr>
       <td colspan="2" class="h"> <h2> Log In </h2> </td>
@@ -45,7 +78,7 @@
 
         <select class="age">
 
-          <option> day </option>
+          <option selected disabled> day </option>
           <option> 1 </option>
           <option> 2 </option>
           <option> 3 </option>
@@ -82,7 +115,7 @@
 
         <select class="age" >
 
-          <option> Month </option>
+          <option selected disabled> Month </option>
           <option> 1 </option>
           <option> 2 </option>
           <option> 3 </option>
@@ -99,7 +132,7 @@
         </select>
 
         <select class="age">
-          <option> year </option>
+          <option selected disabled> year </option>
           <option> 1990 </option>
           <option> 1991 </option>
           <option> 1992 </option>
@@ -134,7 +167,7 @@
 
         <select>
 
-          <option> major </option>
+          <option selected disabled> Select </option>
 
           <option> biology </option>
 
@@ -154,7 +187,7 @@
         <label> branch : </label>
 
         <select>
-          <option> branch </option>
+          <option selected disabled> Selected </option>
           <option> first </option>
           <option> seconde </option>
           <option> third </option>
@@ -171,7 +204,7 @@
         <label> language : </label>
 
         <select>
-          <option> Language </option>
+          <option selected disabled> Select </option>
 
           <option> English </option>
 
@@ -205,7 +238,7 @@
           <label> Year : </label>
 
           <select>
-            <option> Year </option>
+            <option selected disabled> Select </option>
             <option> 1st </option>
             <option> 2nd </option>
             <option> 3rd </option>
@@ -224,18 +257,34 @@
 
       </tr>
 
+      <tr>
+        <td colspan="2">
 
+          <label class="end"> gender : </label>
+          <select>
+            <option disabled selected> Select </option>
+            <option> Male </option>
+            <option> Female </option>
+            <option> Other </option>
 
+          </select>
 
+          </td>
 
+        </tr>
 
+        <tr>
+          <td colspan="2">
+             <button class="end" onclick="info.html"> Register </button>
+            </td>
 
-
-
-
-
-
+          </tr>
   </table>
+</div>
+
+</div>
+
+
 
   </body>
 
