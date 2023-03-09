@@ -89,8 +89,7 @@ td.new{
   font-size: 16px;
   text-align: center;
   padding: 0;
-  margin 0;
-  hbviyiuiguigui:iugiug;
+  margin:0;
 }
 
 td.h{ /* using a class to specify the padding bottom of the line sign up because it cant be specified in the h2{} because it doesnt have enough specifity and the table css setting override it */
@@ -188,4 +187,8 @@ header{
 
 footer{
   margin-top: 30%;
+}
+
+td.beforend{
+  padding-bottom: 0;
 }
