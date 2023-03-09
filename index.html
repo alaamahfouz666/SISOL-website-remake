@@ -21,7 +21,7 @@
 
 </header>
 
-<body>
+<body onload="eror();">
   <div class="headcu">
 
   <div onclick="showmenu();" class="ii">
@@ -67,26 +67,26 @@
          </td>
     </tr>
   </tr>
-  <form onsubmit="return submit1()">
+  <form onsubmit="return nameinfun();">
     <tr>
       <td>
          <label> name : </label>
 
-         <input class="namein" required> </input>
+         <input class="namein" onkeyup="def()"> </input>
 
        </td>
        <td>
          <label > last name : </label>
-         <input class="namein" required></input>
+         <input class="namein" onkeyup="def()"></input>
     </tr>
     <tr>
       <td>
 
         <label> age : </label>
 
-        <select class="age">
+        <select class="age" >
 
-          <option selected disabled> day </option>
+          <option value=""> day </option>
           <option> 1 </option>
           <option> 2 </option>
           <option> 3 </option>
@@ -121,9 +121,9 @@
 
          </select>
 
-        <select class="age" >
+        <select class="age">
 
-          <option selected disabled> Month </option>
+          <option value=""> Month </option>
           <option> 1 </option>
           <option> 2 </option>
           <option> 3 </option>
@@ -140,7 +140,7 @@
         </select>
 
         <select class="age">
-          <option selected disabled> year </option>
+          <option value=""> year </option>
           <option> 1990 </option>
           <option> 1991 </option>
           <option> 1992 </option>
@@ -175,7 +175,7 @@
 
         <select>
 
-          <option selected disabled> Select </option>
+          <option value=""> Select </option>
 
           <option> biology </option>
 
@@ -195,7 +195,7 @@
         <label> branch : </label>
 
         <select>
-          <option selected disabled> Selected </option>
+          <option value=""> Selected </option>
           <option> first </option>
           <option> seconde </option>
           <option> third </option>
@@ -212,7 +212,7 @@
         <label> language : </label>
 
         <select>
-          <option selected disabled> Select </option>
+          <option value=""> Select </option>
 
           <option> English </option>
 
@@ -230,13 +230,13 @@
 
         <div style="float:left">
 
-        <input  type="number" class="code"></input>
+        <input  type="number" class="code" onkeyup="def()"></input>
 
       </div>
 
       <div style="float:left;">
 
-        <input type="number" class="number"></input>
+        <input type="number" class="number" onkeyup="def()"></input>
 
       </div>
 
@@ -246,7 +246,7 @@
           <label> Year : </label>
 
           <select>
-            <option selected disabled> Select </option>
+            <option value=""> Select </option>
             <option> 1st </option>
             <option> 2nd </option>
             <option> 3rd </option>
@@ -259,7 +259,7 @@
         <td>
           <label> Email : </label>
 
-          <input type="email"> </input>
+          <input class="ema" onkeyup="def()"> </input>
 
         </td>
 
@@ -268,7 +268,7 @@
       <tr>
         <td class="beforend">
           <label> Password :</label>
-          <input></input>
+          <input id="passin" onkeyup="def()"></input>
         </td>
         <td class="beforend">
 
@@ -286,14 +286,16 @@
         </tr>
 
         <tr>
-          <td colspan="2">
-             <button class="end"> Register </button>
+          <td colspan="2" style="padding-bottom:0;">
+             <button class="end" > Register </button>
             </td>
           </tr>
 
           <tr>
-            <td colspan="2" class="new">
-            <span id="spanerror"></span>
+            <td colspan="2" class="new2">
+
+            <span id="spanerror" class="spannew"></span>
+
           </td>
           </tr>
 
