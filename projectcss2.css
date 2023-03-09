@@ -1,9 +1,42 @@
-body{
-  margin:0;
+.uniim{  /* top image cusotmization */
+  height:15%;
+  width:100%;
+  filter: brightness(120%);
 }
 
+body{
+  margin:0;
+  height: 1000px;
+}
 
+body{
+  background-image: linear-gradient(
+      rgba(0, 0, 3, 0.291),
+      rgba(59, 59, 255, 0.786)
+    ),
+    url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  /* background: rgba(0, 0, 184, 0.65) url('img2.jpg');
+  background-blend-mode:hard-light; */
+}
 
+.hh{ /* customizing the lebanese university sentence at the top*/
+  text-align: center;
+  font-size:xx-large;
+  font-style:italic;
+  text-decoration: underline;
+  color: #ffffff;
+  margin-bottom: 20PX;
+}
+
+div.unii{
+  width:400px;
+  /* float:left; */
+margin: auto;
+text-align: center;
+}
 
 
 .mainb
@@ -17,7 +50,7 @@ body{
   border: solid rgb(19, 24, 176);
   background-color: rgb(42, 0, 87);
   background-image: linear-gradient(rgb(19, 0, 95), rgb(52, 106, 255));
-  border-radius: 15px;
+  border-radius: 50px;
 }
 
 label{
@@ -45,7 +78,51 @@ select{
   background-color: rgb(8, 44, 107);
 }
 
-.uniim{  /* top image cusotmization */
-  height:150px;
-  width:100%;
+
+footer{
+  margin-top: 20%;
+}
+
+header{
+  background-image: url('uni1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15%;
+  width: 100%;
+}
+
+.navv{
+  font-size: 2em;
+  background-color: rgb(23, 0, 98);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#navv1{
+  float: left;
+  margin-left: 7%;
+  margin-top: 30px;
+}
+
+#navv2{
+  float:right;
+  margin-right: 7%;
+  margin-top: 30px;
+}
+
+div.menu{
+  width:250px;
+  background-color: navy;
+  margin-top:0px;
+  float:left;
+  margin-bottom: 100px;
+  margin-right:10px; /* space between menu and table */
+  margin-left: 10px;
+  display:none;
 }

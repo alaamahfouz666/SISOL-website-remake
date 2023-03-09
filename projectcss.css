@@ -1,33 +1,45 @@
 .uniim{  /* header image cusotmization */
-  height:80px;
-  width:1518px;
+  height:15%;
+  width:100%;
+  filter:brightness(120%);
 }
-
-*{ /* eliminating margin from around images to fit the screen perfectly */
+/*
+*{ /* eliminating margin from around images to fit the screen perfectly 
   margin:0;
   font-family: comic sans ms,cursive;
-}
+}*/
 
 body{ /* temperory to look downside */
-  height: 3000px;
+  background-image: linear-gradient(
+      rgba(0, 0, 3, 0.291),
+      rgba(59, 59, 255, 0.786)
+    ),
+    url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  height: 1000px;
+  margin: 0;
 }
 
 .hh{ /* customizing the lebanese university sentence at the top*/
   text-align: center;
-  font-size: 30px;
+  font-size:xx-large;
   font-style:italic;
   text-decoration: underline;
-  color: #c3c9cc;
+  color: #ffffff;
+  margin-bottom: 20PX;
 }
 
 table{ /* cusotmizing table size , look and style */
   font-size: 25px; /* for style */
-
-  border: solid white;
+  border: solid rgb(19, 24, 176);
   background-color: white;
-  border-radius: 15px; /* for round corners */
+  border-radius: 50px; /* for round corners */
   margin-top:10px;
-  margin-left:20px;
+  margin: auto;
+  background-image: linear-gradient(rgb(19, 0, 95), rgb(52, 106, 255));
+  margin-bottom: 50px;
 }
 
 input{ /* customizing the input boxes all along the page */
@@ -74,7 +86,7 @@ input.number{ /* customizing the input box of the number */
   width:150px;
 }
 td.new{
-  font-size: 10px;
+  font-size: 16px;
   text-align: center;
   padding: 0;
 }
@@ -90,7 +102,8 @@ div.menu{
   margin-top:0px;
   float:left;
   margin-bottom: 100px;
-  margin-right:65px; /* space between menu and table */
+  margin-right:10px; /* space between menu and table */
+  margin-left: 10px;
   display:none;
 }
 
@@ -98,19 +111,19 @@ div.link a {
   color:white;
 }
 
-div.parent{
+/* div.parent{
   display: inline-block;
   width:1500px;
-}
+} */
 
 div.tablee{
-  padding-left:300px;
-  margin:0;
-  height:1500px;
+width: 90%;
+margin:auto;
+color: aliceblue  ;
 }
 
 button.end{
-  margin-left:35%;
+  margin-left:300px;
   font-size: 20px;
   width:300px;
 }
@@ -120,26 +133,52 @@ div.ii{ /* customizing div of the icon */
   display: inline-block; /* make the div as small as the icon so it doesnt have a big width */
   /* padding-bottom:40px; */
   margin:0;
-  float:left;
+  margin-left: 10px;
+  /* float:left; */
 }
 
-div.headcu{
+/* div.headcu{
   display: inline-block;
   width:1513px;
 
-}
+} */
 
 div.unii{
   width:400px;
-  float:left;
-  margin-left:35%;
+  /* float:left; */
+margin: auto;
+text-align: center;
 }
 
-span.error{
-  font-size: 13px;
+.navv{
+  font-size: 2em;
+  background-color: rgb(23, 0, 98);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
-td.error{
-  text-align: center;
-  padding:0;
+#navv1{
+  float: left;
+  margin-left: 7%;
+  margin-top: 30px;
+}
+
+#navv2{
+  float:right;
+  margin-right: 7%;
+  margin-top: 30px;
+}
+
+header{
+  background-image: url('uni1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15%;
+  width: 100%;
 }
