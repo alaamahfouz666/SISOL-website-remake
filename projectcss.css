@@ -1,10 +1,10 @@
-.uniim{  /* header image cusotmization */
+/* .uniim{
   height:15%;
   width:100%;
-  filter:brightness(120%);
-}
+  filter:brightness(1%);
+} */
 
-*{ /* eliminating margin from around images to fit the screen perfectly */
+*{
   font-family: comic sans ms,cursive;
 }
 
@@ -17,7 +17,7 @@ body{ /* temperory to look downside */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  height: 1000px;
+  height: 1500px;
   margin: 0;
 }
 
@@ -151,7 +151,7 @@ text-align: center;
 
 .navv{
   font-size: 2em;
-  background-color: rgb(23, 0, 98);
+  background-color: rgb(23, 0, 97);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 7px;
@@ -181,3 +181,9 @@ header{
   height: 15%;
   width: 100%;
 }
+
+
+footer{
+  margin-top: 30%;
+}
+

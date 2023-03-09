@@ -1,12 +1,11 @@
 .uniim{  /* top image cusotmization */
   height:15%;
   width:100%;
-  filter: brightness(120%);
 }
 
 body{
   margin:0;
-  height: 1000px;
+  height: 1500px;
 }
 
 body{
@@ -48,7 +47,6 @@ text-align: center;
   text-align:center;
   margin-top: 20px;
   border: solid rgb(19, 24, 176);
-  background-color: rgb(42, 0, 87);
   background-image: linear-gradient(rgb(19, 0, 95), rgb(52, 106, 255));
   border-radius: 50px;
 }
@@ -64,7 +62,7 @@ input{
   margin:12px;
 }
 
-.ii2
+.ii2 /* to fix the size of terms check box   */
 {
   width:20px;
   height:20px;
@@ -80,7 +78,7 @@ select{
 
 
 footer{
-  margin-top: 20%;
+  margin-top: 40%;
 }
 
 header{
