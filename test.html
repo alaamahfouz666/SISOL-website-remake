@@ -2,35 +2,31 @@
 
 <html>
 
-
-  <head>
-    <link rel="stylesheet" href="projectcss.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="projectjs.js"></script>
-
-   </head>
-
-
 <header>
 
-  <div>
-    <!-- <img class="uniim" src="uni1.jpeg"></img> -->
-    <a href="index.html" class="navv" id="navv1">Home</a>
-    <a href="signin.html" class="navv" id="navv2">Login</a>
-  </div>
+<head>
+  <link rel="stylesheet" href="projectcss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="projectjs.js"></script>
+
+ </head>
+
+
+  <img class="uniim" src="uni1.jpeg"></img>
 
 </header>
 
-<body>
+<body background="bluebg.webp">
   <div class="headcu">
 
   <div onclick="showmenu();" class="ii">
-  <i class="fa fa-bars fa-4x" style="color:white"></i>
+  <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
 </div>
 <div class="unii">
 <h1 class="hh"> Lebanese University </h1>
 </div>
 </div>
+  <div class="parent">
   <div class="menu">
 
 
@@ -56,27 +52,27 @@
 
   </div>
 
-  <div class="tablee" >
+  <div class="tablee">
   <table>
     <tr>
       <td colspan="2" class="h"> <h2> Sign Up </h2> </td>
     </tr>
       <tr>
         <td colspan="2" class="new">
-           <a href="signin.html" style="color: rgb(134, 227, 255);"> already a member? sign in now. </a>
+           <a href="signin.html"> already a member? sign in now. </a>
          </td>
     </tr>
-  </tr>
+    <form name="formtab" onsubmit="return nameinfun()">
     <tr>
       <td>
          <label> name : </label>
 
-         <input class="namein" required> </input>
+         <input class="namein" required > </input>
 
        </td>
        <td>
-         <label > last name : </label>
-         <input class="namein" required></input>
+         <label> last name : </label>
+         <input class="namein" required ></input>
     </tr>
     <tr>
       <td>
@@ -283,25 +279,31 @@
           </td>
 
         </tr>
+
         <tr>
-          <td colspan="2" class="new">
-          <span id="spanerror">hh</span>
-        </td>
-        </tr>
-        <tr>
-          <td colspan="2">
-             <button class="end"> Register </button>
+          <td colspan="2" style="padding:0;">
+             <button class="end"  > Register </button>
             </td>
 
           </tr>
+           <tr style="line-height:10px;"> <!-- to reduce the row's height -->
+            <td colspan="2" class="error">   <span id="spanerror" style="font-size:13px; color:red;"> </span> </td>
+          </tr>
+
+        </form>
+
   </table>
+
+
 </div>
 
-<footer>
-  <p style="text-align:center; color:white; font-size:20px; font-family:algerian;">Developed by Firas and Alaa<a target="_blank"></a></p>
-</footer>
+</div>
+
+
 
   </body>
+
+  <footer></footer
 
 
 

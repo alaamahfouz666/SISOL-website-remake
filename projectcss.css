@@ -84,6 +84,7 @@ input.code{ /* customizing the input box of the code number box to be smaller */
 input.number{ /* customizing the input box of the number */
   width:150px;
 }
+
 td.new{
   font-size: 16px;
   text-align: center;
@@ -186,4 +187,3 @@ header{
 footer{
   margin-top: 30%;
 }
-
