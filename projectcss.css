@@ -2,7 +2,7 @@
   height:15%;
   width:100%;
   filter:brightness(1%);
-} */
+} hihihello            jkhuiojhiojiojiojiojiojiojiojiojiojoi*/
 
 *{
   font-family: comic sans ms,cursive;
@@ -89,6 +89,8 @@ td.new{
   font-size: 16px;
   text-align: center;
   padding: 0;
+  margin 0;
+  hbviyiuiguigui:iugiug;
 }
 
 td.h{ /* using a class to specify the padding bottom of the line sign up because it cant be specified in the h2{} because it doesnt have enough specifity and the table css setting override it */
