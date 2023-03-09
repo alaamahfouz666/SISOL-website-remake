@@ -3,11 +3,10 @@
   width:100%;
   filter:brightness(120%);
 }
-/*
-*{ /* eliminating margin from around images to fit the screen perfectly 
-  margin:0;
+
+*{ /* eliminating margin from around images to fit the screen perfectly */
   font-family: comic sans ms,cursive;
-}*/
+}
 
 body{ /* temperory to look downside */
   background-image: linear-gradient(
