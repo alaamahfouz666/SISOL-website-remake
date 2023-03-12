@@ -1,14 +1,11 @@
-/* .uniim{  /* top image cusotmization 
+/* .uniim{  /* top image cusotmization
   height:15%;
   width:100%;
 } */
 
-body{
-  margin:0;
-  height: 1500px;
-}
 
-body{
+
+#signinpage{
   background-image: linear-gradient(
       rgba(0, 0, 3, 0.291),
       rgba(59, 59, 255, 0.786)
@@ -17,8 +14,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  /* background: rgba(0, 0, 184, 0.65) url('img2.jpg');
-  background-blend-mode:hard-light; */
+    margin:0;
+    height: 1500px;
 }
 
 .hh{ /* customizing the lebanese university sentence at the top*/
@@ -51,24 +48,19 @@ text-align: center;
   border-radius: 50px;
 }
 
-label{
-  font-size:18px;
-  display:inline-block;
-}
-
-input{
+.mainb input{
   width:350px;
   height:35px;
   margin:12px;
 }
 
-.ii2 /* to fix the size of terms check box   */
+input.ii2 /* to fix the size of terms check box   */
 {
   width:20px;
   height:20px;
 }
 
-select{
+.mainb select{
   width:300px;
   height:35px;
   text-align:center;
@@ -77,11 +69,11 @@ select{
 }
 
 
-footer{
+footer.footer2{
   margin-top: 40%;
 }
 
-header{
+header.header2{
   background-image: url('uni1.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,7 +139,7 @@ h4{
   margin: auto;
   color:white;
   display: block;
-  
+
 }
 
 .bookst{
@@ -216,7 +208,7 @@ hr{
 
 #bookst1
 {
-  
+
 }
 
 #bookst2

@@ -4,6 +4,7 @@
 
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <link rel="stylesheet" href="projectcss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="projectjs.js"></script>
@@ -56,7 +57,7 @@
 
   </div>
 
-  <div class="tablee" >
+  <div class="tablee">
   <table>
     <tr>
       <td colspan="2" class="h"> <h2> Sign Up </h2> </td>
@@ -67,17 +68,17 @@
          </td>
     </tr>
   </tr>
-  <form onsubmit="return nameinfun();">
+  <form onsubmit="return fun1();">
     <tr>
       <td>
          <label> name : </label>
 
-         <input class="namein" onkeyup="def()"> </input>
+         <input class="namein" onkeyup="nameinfun()" > </input>
 
        </td>
        <td>
          <label > last name : </label>
-         <input class="namein" onkeyup="def()"></input>
+         <input class="namein" onkeyup="nameinfun()" ></input>
     </tr>
     <tr>
       <td>
@@ -121,7 +122,7 @@
 
          </select>
 
-        <select class="age">
+        <select class="age" >
 
           <option value=""> Month </option>
           <option> 1 </option>
@@ -139,7 +140,7 @@
 
         </select>
 
-        <select class="age">
+        <select class="age" >
           <option value=""> year </option>
           <option> 1990 </option>
           <option> 1991 </option>
@@ -166,14 +167,14 @@
 
       <td>
         <label> adress : </label>
-        <input type="next"> </input>
+        <input type="next" > </input>
 
     </tr>
     <tr>
       <td>
         <label> major : </label>
 
-        <select>
+        <select >
 
           <option value=""> Select </option>
 
@@ -194,7 +195,7 @@
       <td>
         <label> branch : </label>
 
-        <select>
+        <select >
           <option value=""> Selected </option>
           <option> first </option>
           <option> seconde </option>
@@ -211,7 +212,7 @@
       <td>
         <label> language : </label>
 
-        <select>
+        <select >
           <option value=""> Select </option>
 
           <option> English </option>
@@ -230,13 +231,13 @@
 
         <div style="float:left">
 
-        <input  type="number" class="code" onkeyup="def()"></input>
+        <input  type="number" class="code" onkeyup="num()" ></input>
 
       </div>
 
       <div style="float:left;">
 
-        <input type="number" class="number" onkeyup="def()"></input>
+        <input type="number" class="number" onkeyup="num1()" ></input>
 
       </div>
 
@@ -245,7 +246,7 @@
 
           <label> Year : </label>
 
-          <select>
+          <select >
             <option value=""> Select </option>
             <option> 1st </option>
             <option> 2nd </option>
@@ -259,7 +260,7 @@
         <td>
           <label> Email : </label>
 
-          <input class="ema" onkeyup="def()"> </input>
+          <input class="ema" onkeyup="em()" > </input>
 
         </td>
 
@@ -268,13 +269,13 @@
       <tr>
         <td class="beforend">
           <label> Password :</label>
-          <input id="passin" onkeyup="def()"></input>
+          <input id="passin" onkeyup="pass()" ></input>
         </td>
         <td class="beforend">
 
           <label class="end"> gender : </label>
-          <select>
-            <option disabled selected> Select </option>
+          <select >
+            <option value=""> Select </option>
             <option> Male </option>
             <option> Female </option>
             <option> Other </option>
