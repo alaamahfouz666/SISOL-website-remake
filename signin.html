@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="stylesheet" href="projectcss.css">
     <script src="projectjs.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,8 +19,8 @@
 
 </header>
 
-<body id="signinpage" onload="eror()">
-  <div class="unii">
+<body id="signinpage" onload="eror(); num();">
+  <div class="title">
     <h1 class="hh"> Lebanese University </h1>
     </div>
 <div class="mainb">
@@ -30,7 +30,7 @@
       </div>
       <div>
         <div class="inl">
-          <form onsubmit="return fun1()">
+          <form onsubmit="return fun1();" action="homepage.html">
             <div>
               <div>
                 <div> <span><i class="fa fa-user"></i></span>
@@ -42,11 +42,11 @@
               <input type="email" name="email" placeholder="Email" required/>
             </div>
             <div> <span><i class="fa fa-lock"></i></span>
-              <input type="password" name="password" placeholder="Password" required />
+              <input type=password name="password" placeholder="Password" class="passin" onkeyup="pass()" required />
             </div>
                 <div>
-                  <select id="s1" onchange="myfunc()">
-                    <option>Select a country</option>
+                  <select id="s1" onchange="myfunc()" required>
+                    <option value="">Select a country</option>
                     <option>Lebanon</option>
                     <option>Syria</option>
                     <option>Jordan</option>
@@ -59,14 +59,14 @@
                 </div>
               <div class="check">
                 <div class="ii2">
-                  <input class="ii2" type="checkbox">
+                  <input class="ii22" type="checkbox"  required>
                 </div>
                 <div class="labell">
                   <label>I agree with terms and conditions</label>
                 </div>
               </div>
               <div>
-            <input class="end" type="submit" value="Register"/>
+            <input class="end" type="submit" value="Register" />
           </div>
           <div>
             <span id="spanerror" class="spannew2"></span>
@@ -76,8 +76,9 @@
       </div>
     </div>
   </div>
-  <footer class="footer2">
-  <p style="text-align:center; color:white; font-size:20px; font-family:algerian;">Developed by Firas and Alaa<a target="_blank"></a></p>
-  </footer>
+
 </body>
+<footer class="footer2">
+<p style="text-align:center; color:white; font-size:20px; font-family:algerian;">Developed by Firas and Alaa<a target="_blank"></a></p>
+</footer>
 </html>

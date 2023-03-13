@@ -8,6 +8,9 @@
   font-family: comic sans ms,cursive;
 }
 
+html{
+  height:100%;
+}
 body{ /* temperory to look downside */
   background-image: linear-gradient(
       rgba(0, 0, 3, 0.291),
@@ -17,10 +20,12 @@ body{ /* temperory to look downside */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1500px;;
+    height: 1188px;
+    /* min-height: 100%; */
     margin: 0;
     width: 100%;
 }
+
 
 .hh{ /* customizing the lebanese university sentence at the top*/
   text-align: center;
@@ -167,7 +172,8 @@ div.ii{ /* customizing div of the icon */
 
 div.unii{
 display: inline-block;
-margin-left: 45%;
+margin:auto;
+margin-left: 40%;
 }
 
 .navv{
@@ -205,7 +211,7 @@ header{
 
 
 footer{
-  margin-top: 30%;
+  margin:auto;
 }
 
 div.headcu
@@ -213,15 +219,6 @@ div.headcu
 
   height:5%;
 }
-
-
-/*                                        */
-
-
-
-
-
-
 
 
 #signinpage{
@@ -234,7 +231,8 @@ div.headcu
     background-repeat: no-repeat;
     background-position: center;
     margin:0;
-    height: 1500px;
+    height: 1000px;
+
 }
 
 /* .hh{ /* customizing the lebanese university sentence at the toph
@@ -274,7 +272,7 @@ text-align: center;
   margin:3%;
 }
 
-input.ii2 /* to fix the size of terms check box   */
+input.ii2 , input.ii22/* to fix the size of terms check box   */
 {
   width:20px;
   height:20px;
@@ -296,16 +294,16 @@ input.ii2 /* to fix the size of terms check box   */
 
 
 footer.footer2{
-  margin-top: 40%;
+  margin:auto;
 }
 
 header.header2{
   background-image: url('uni1.jpeg');
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 15%;
-  width: 100%;
+  width: 100%; */
 }
 
 .navv{
@@ -346,7 +344,6 @@ header.header2{
 .title1{
   color:white;
   text-align: center;
-  margin: auto;
 }
 
 /* h1{
@@ -417,7 +414,7 @@ h3{
   color: aliceblue;
   font-size: 1.5em;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 5%;
 }
 
 .buttonss
@@ -432,7 +429,7 @@ hr{
   border: 0px;
 }
 
-#bookst1
+/* #bookst1
 {
 
 }
@@ -443,6 +440,11 @@ hr{
 }
 
 #bookst3
+{
+  display: none;
+} */
+
+.mybooks
 {
   display: none;
 }

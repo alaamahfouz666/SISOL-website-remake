@@ -41,6 +41,29 @@ function eror()
     errorr.innerHTML=string;
   }
 
+  function tables()
+  {
+    var butt=document.getElementsByClassName("button1");
+    var divv=document.getElementsByClassName("mybooks");
+
+     for(let i=0;i<butt.length;i++) // Using let instead of var in your code was necessary because you needed to create a new i variable with block scope for each iteration of the loop, so that each event listener closure captures a reference to its own unique i variable, with the expected value for that listener.
+    {
+      document.getElementsByClassName("button1")[i].addEventListener("click",
+      function (){
+        for(let j=0;j<butt.length;j++)
+        {
+          if(j!=i)
+          {
+            divv[j].style.display="none";
+          }
+        }
+       divv[i].style.display="inline-block";
+
+      }
+    );
+    }
+
+  }
 
 
 function showmenu(){
@@ -64,7 +87,8 @@ function showmenu(){
 function num()
 {
   def();
-    co =document.getElementsByClassName("code")[0];
+  if(document.getElementsByClassName("code").length>0){
+     co =document.getElementsByClassName("code")[0];
 
 
   if(co.value.length>3)
@@ -75,12 +99,16 @@ function num()
   }
 
 
-  return num1();
+
+}
+return num1();
 }
 
 function num1()
 {
   def();
+  if(document.getElementsByClassName("number").length>0)
+  {
    nu = document.getElementsByClassName("number")[0];
 
    if((nu.value.length<7) && (nu.value.length>0))
@@ -89,7 +117,9 @@ function num1()
      styly(nu);
      return false;
    }
-   return em();
+
+}
+return em();
 }
 
 
@@ -97,35 +127,37 @@ function num1()
 function pass()
 {
   def();
-  var pas=document.getElementById("passin");
-  var pasv=document.getElementById("passin").value;
-  if(pasv.length>0)
+  var pas=document.getElementsByClassName("passin");
+  var pasv=document.getElementsByClassName("passin").value;
+  for(var i=0;i<pas.length;i++)
   {
-  if(pasv.length<8)
+  if(pas[i].value.length>0)
   {
-    styly(pas);
+  if(pas[i].value.length<8)
+  {
+    styly(pas[i]);
     inner("the password must be more than 8 digits!");
     return false;
   }
-  if(pasv.length>15)
+  if(pas[i].value.length>15)
   {
-    styly(pas);
+    styly(pas[i]);
     inner("the password must at maximum 15 digits");
     return false;
   }
    var c=0;
-  for(var i=0;i<10;i++)
+  for(var j=0;j<10;j++)
   {
-    if(pasv.indexOf(numbers[i])!=-1)
+    if(pas[i].value.indexOf(numbers[j])!=-1)
     {
       c=1;
-      
-    }
 
+    }
+}
   }
   if(c==0)
   {
-  styly(pas);
+  styly(pas[i]);
   inner("password must contains at least one number!");
   return false;
 }
@@ -134,12 +166,10 @@ function pass()
 }
 
 
-
-
-
-
 function em()
 { def();
+  if(document.getElementsByClassName("ema").length>0)
+  {
   var email=document.getElementsByClassName("ema")[0];
   var emailv=document.getElementsByClassName("ema")[0].value;
 
@@ -173,7 +203,7 @@ if((emailv.indexOf("@")>emailv.indexOf(".")) || (emailv.indexOf("@")<5))
   inner("the email format is incorrect!");
   return false;
 }
-
+}
 
 }
 return pass();
@@ -234,6 +264,7 @@ return pass();
   function fun1()
   {
     return nameinfun();
+
   }
 
 function submit1()

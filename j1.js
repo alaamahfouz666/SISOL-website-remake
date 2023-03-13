@@ -11,6 +11,10 @@ function styly(namy)
   namy.style.border="solid red";
 }
 
+function inner(string)
+{
+  errorr.innerHTML=string;
+}
 
   function username()
   {
