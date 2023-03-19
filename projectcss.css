@@ -56,12 +56,18 @@ label{ /* customizing the labes by the input boxes side to align correctly as a 
   margin-top:3px;
 }
 
-td{  /* cusotmizing td to align correctly */
+td{  /* customizing td to align correctly */
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom:30px;
   text-align: left;
 }
+
+/* div.books td
+{
+  padding:0;
+  padding-bottom: 20px;
+} */
 
 select{ /* cusotmizing select boxes */
   width:207px;
@@ -321,7 +327,8 @@ h4{
 
 }
 
-.bookst{
+.bookst
+{
   color:white;
   font-size: 25px; /* for style */
   text-align:center;
@@ -330,7 +337,6 @@ h4{
   border-radius: 50px;
   margin: auto;
   padding-bottom: 20px;
-
 }
 
 h3{

@@ -58,7 +58,7 @@ function table1()
     divv[i].style.display="none";
   }
 
-  divv[0].style.display="inline-block";
+  divv[0].style.display="block";
 }
 
 function table2()
@@ -70,7 +70,7 @@ function table2()
     divv[i].style.display="none";
   }
 
-  divv[1].style.display="inline-block";
+  divv[1].style.display="block";
 }
 
 function table3()
@@ -81,25 +81,7 @@ function table3()
     divv[i].style.display="none";
   }
 
-  divv[2].style.display="inline-block";
-}
-
-
-
-
-function showmenu(){
-  var menu=document.getElementsByClassName("menu")[0];
-  if(menu.style.display=="none")
-  {
-  menu.style.display="inline-block";
-  return;
-  }
-
-  else if(menu.style.display="inline-block")
-  {
-  menu.style.display="none";
-  return;
-  }
+  divv[2].style.display="block";
 }
 
 
