@@ -3,8 +3,17 @@
 
  function myfunc()
  {
+    var inp=document.getElementsByClassName("hiddeninput")[0];
+
      if(document.getElementById("s1").value=="op1")
+     {
      document.getElementById("ot1").style.display="inline-block";
+     inp.required=true;
+   }
+   else {
+     document.getElementById("ot1").style.display="none";
+     inp.required=false;
+   }
  }
 
 function eror()
@@ -41,29 +50,41 @@ function eror()
     errorr.innerHTML=string;
   }
 
-  function tables()
+function table1()
+{
+  var divv=document.getElementsByClassName("mybooks");
+  for(var i=1;i<3;i++)
   {
-    var butt=document.getElementsByClassName("button1");
-    var divv=document.getElementsByClassName("mybooks");
-
-     for(let i=0;i<butt.length;i++) // Using let instead of var in your code was necessary because you needed to create a new i variable with block scope for each iteration of the loop, so that each event listener closure captures a reference to its own unique i variable, with the expected value for that listener.
-    {
-      document.getElementsByClassName("button1")[i].addEventListener("click",
-      function (){
-        for(let j=0;j<butt.length;j++)
-        {
-          if(j!=i)
-          {
-            divv[j].style.display="none";
-          }
-        }
-       divv[i].style.display="inline-block";
-
-      }
-    );
-    }
-
+    divv[i].style.display="none";
   }
+
+  divv[0].style.display="inline-block";
+}
+
+function table2()
+{
+  var divv=document.getElementsByClassName("mybooks");
+  for(var i=0;i<3;i++)
+  {
+    if(i!=1)
+    divv[i].style.display="none";
+  }
+
+  divv[1].style.display="inline-block";
+}
+
+function table3()
+{
+  var divv=document.getElementsByClassName("mybooks");
+  for(var i=0;i<2;i++)
+  {
+    divv[i].style.display="none";
+  }
+
+  divv[2].style.display="inline-block";
+}
+
+
 
 
 function showmenu(){
@@ -87,8 +108,7 @@ function showmenu(){
 function num()
 {
   def();
-  if(document.getElementsByClassName("code").length>0){
-     co =document.getElementsByClassName("code")[0];
+   co =document.getElementsByClassName("code")[0];
 
 
   if(co.value.length>3)
@@ -98,17 +118,13 @@ function num()
     return false;
   }
 
-
-
-}
 return num1();
 }
 
 function num1()
 {
   def();
-  if(document.getElementsByClassName("number").length>0)
-  {
+
    nu = document.getElementsByClassName("number")[0];
 
    if((nu.value.length<7) && (nu.value.length>0))
@@ -118,7 +134,6 @@ function num1()
      return false;
    }
 
-}
 return em();
 }
 
@@ -128,7 +143,7 @@ function pass()
 {
   def();
   var pas=document.getElementsByClassName("passin");
-  var pasv=document.getElementsByClassName("passin").value;
+
   for(var i=0;i<pas.length;i++)
   {
   if(pas[i].value.length>0)
@@ -167,9 +182,9 @@ function pass()
 
 
 function em()
-{ def();
-  if(document.getElementsByClassName("ema").length>0)
-  {
+{
+  def();
+
   var email=document.getElementsByClassName("ema")[0];
   var emailv=document.getElementsByClassName("ema")[0].value;
 
@@ -205,7 +220,7 @@ if((emailv.indexOf("@")>emailv.indexOf(".")) || (emailv.indexOf("@")<5))
 }
 }
 
-}
+
 return pass();
 }
 
@@ -218,8 +233,7 @@ return pass();
 {
   def();
   var name=document.getElementsByClassName("namein");
-  var name2=document.getElementsByClassName("namein")[1];
-  var name3=document.getElementsByClassName("namein")[2];
+
 
   for(var j=0;j<name.length;j++)
   {

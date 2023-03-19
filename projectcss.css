@@ -1,15 +1,11 @@
-/* .uniim{
-  height:15%;
-  width:100%;
-  filter:brightness(1%);
-} hihihello            jkhuiojhiojiojiojiojiojiojiojiojiojoi*/
+
 
 *{
   font-family: comic sans ms,cursive;
 }
 
 html{
-  height:200%;
+  height:155%;
 }
 body{ /* temperory to look downside */
   background-image: linear-gradient(
@@ -24,6 +20,7 @@ body{ /* temperory to look downside */
     /* min-height: 100%; */
     margin: 0;
     width: 100%;
+    overflow:auto;
 }
 
 
@@ -138,10 +135,6 @@ div.link a {
   color:white;
 }
 
-/* div.parent{
-  display: inline-block;
-  width:1500px;
-} */
 
 div.tablee{
 width: 90%;
@@ -159,17 +152,9 @@ button.end{
 
 div.ii{ /* customizing div of the icon */
   display: inline-block; /* make the div as small as the icon so it doesnt have a big width */
-  /* padding-bottom:40px; */
   margin:0;
   margin-left: 10px;
-  /* float:left; */
 }
-
-/* div.headcu{
-  display: inline-block;
-  width:1513px;
-
-} */
 
 div.unii{
 display: inline-block;
@@ -236,22 +221,6 @@ div.headcu
 
 }
 
-/* .hh{ /* customizing the lebanese university sentence at the toph
-  text-align: center;
-  font-size:xx-large;
-  font-style:italic;
-  text-decoration: underline;
-  color: #ffffff;
-  margin-bottom: 20PX;
-} */
-
-/* div.unii{
-  width:400px;
-  /* float:left;
-margin: auto;
-text-align: center;
-} */
-
 
 .mainb
 {
@@ -305,11 +274,6 @@ input.ii2 , input.ii22/* to fix the size of terms check box   */
 
 header.header2{
   background-image: url('uni1.jpeg');
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 15%;
-  width: 100%; */
 }
 
 .navv{
@@ -336,26 +300,12 @@ header.header2{
   margin-top: 30px;
 }
 
-/* div.menu{
-  width:250px;
-  background-color: navy;
-  margin-top:0px;
-  float:left;
-  margin-bottom: 100px;
-  margin-right:10px; /* space between menu and table
-  margin-left: 10px;
-  display:none;
-} */
 
 .title1{
   color:white;
   text-align: center;
 }
 
-/* h1{
-  margin-bottom: 0px;
-  font-size: 2.3em;
-} */
 
 h4{
   margin-top: 4px;
@@ -434,21 +384,6 @@ hr{
   margin: 20px;
   border: 0px;
 }
-
-/* #bookst1
-{
-
-}
-
-#bookst2
-{
-  display: none;
-}
-
-#bookst3
-{
-  display: none;
-} */
 
 .mybooks
 {
